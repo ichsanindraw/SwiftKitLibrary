@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SwiftKitLibrary"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of SwiftKitLibrary."
+  spec.summary      = "The Reusable Components build on top of UIKit"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,8 +38,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -73,6 +73,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
   # spec.visionos.deployment_target = "1.0"
 
+  spec.swift_versions = ['5']
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
